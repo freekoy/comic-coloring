@@ -16,5 +16,21 @@ https://github.com/eriklindernoren/Keras-GAN/pix2pix
 
 3: 运行pix2pix.py即可
 
+Original intention: use gan to fight against the network to color comics
+
+Operating environment python3 keras2.2.4
+
+Modified from
+https://github.com/eriklindernoren/Keras-GAN/pix2pix
+
+Data Sources
+Reference https://zhuanlan.zhihu.com/p/25709644
+
+1: Put the picture in imgs
+
+2: Run create_data.py to create the data needed for the training model
+
+3: Run pix2pix.py
+
 效果如下：
 ![avatar](https://github.com/freekoy/comic-coloring/blob/master/infer.png)
